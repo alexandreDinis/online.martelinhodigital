@@ -931,8 +931,29 @@
     }
 
     .why-card__icon {
-      font-size: 1.75rem;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 48px;
+      height: 48px;
+      border-radius: 10px;
+      background: rgba(201, 160, 48, 0.1);
+      border: 1px solid rgba(201, 160, 48, 0.25);
+      color: var(--color-gold);
       margin-bottom: var(--space-md);
+      transition: all var(--transition-base);
+    }
+
+    .why-card:hover .why-card__icon {
+      background: rgba(201, 160, 48, 0.2);
+      border-color: var(--color-gold);
+      box-shadow: 0 0 16px rgba(201, 160, 48, 0.35);
+      transform: translateY(-2px);
+    }
+
+    .why-card__icon svg {
+      width: 24px;
+      height: 24px;
     }
 
     .why-card__title {
@@ -1024,8 +1045,29 @@
     }
 
     .step-item__icon {
-      font-size: 2rem;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 52px;
+      height: 52px;
+      border-radius: 12px;
+      background: rgba(201, 160, 48, 0.1);
+      border: 1px solid rgba(201, 160, 48, 0.25);
+      color: var(--color-gold);
       margin-bottom: var(--space-md);
+      transition: all var(--transition-base);
+    }
+
+    .step-item:hover .step-item__icon {
+      background: rgba(201, 160, 48, 0.2);
+      border-color: var(--color-gold);
+      box-shadow: 0 0 16px rgba(201, 160, 48, 0.35);
+      transform: translateY(-2px);
+    }
+
+    .step-item__icon svg {
+      width: 26px;
+      height: 26px;
     }
 
     .step-item__text {
@@ -1106,8 +1148,29 @@
     }
 
     .how-step__icon {
-      font-size: 2.5rem;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 60px;
+      height: 60px;
+      border-radius: 14px;
+      background: rgba(201, 160, 48, 0.1);
+      border: 1px solid rgba(201, 160, 48, 0.25);
+      color: var(--color-gold);
       margin-bottom: var(--space-lg);
+      transition: all var(--transition-base);
+    }
+
+    .how-step:hover .how-step__icon {
+      background: rgba(201, 160, 48, 0.2);
+      border-color: var(--color-gold);
+      box-shadow: 0 0 20px rgba(201, 160, 48, 0.35);
+      transform: translateY(-3px);
+    }
+
+    .how-step__icon svg {
+      width: 28px;
+      height: 28px;
     }
 
     .how-step__title {
@@ -1157,8 +1220,44 @@
     }
 
     .service-card__icon {
-      font-size: 2.5rem;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 60px;
+      height: 60px;
+      border-radius: 14px;
+      background: rgba(201, 160, 48, 0.1);
+      border: 1px solid rgba(201, 160, 48, 0.25);
+      color: var(--color-gold);
       margin-bottom: var(--space-lg);
+      transition: all var(--transition-base);
+    }
+
+    .service-card:hover .service-card__icon {
+      background: rgba(201, 160, 48, 0.2);
+      border-color: var(--color-gold);
+      box-shadow: 0 0 20px rgba(201, 160, 48, 0.35);
+      transform: translateY(-3px);
+    }
+
+    .service-card__icon svg {
+      width: 28px;
+      height: 28px;
+    }
+
+    .inline-icon {
+      display: inline-block;
+      width: 18px;
+      height: 18px;
+      vertical-align: -3px;
+      margin-right: 0.4rem;
+      color: var(--color-gold);
+    }
+
+    .badge-icon-svg {
+      width: 22px;
+      height: 22px;
+      flex-shrink: 0;
     }
 
     .service-card__title {
@@ -1596,15 +1695,21 @@
         </p>
         <div class="hero__features">
           <div class="hero__feature-item">
-            <span class="hero__feature-icon">✓</span>
+            <span class="hero__feature-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+            </span>
             <span>Preserva 100% da pintura original de fábrica</span>
           </div>
           <div class="hero__feature-item">
-            <span class="hero__feature-icon">✓</span>
+            <span class="hero__feature-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+            </span>
             <span>Sem filas nem dias com o carro parado em oficina</span>
           </div>
           <div class="hero__feature-item">
-            <span class="hero__feature-icon">✓</span>
+            <span class="hero__feature-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+            </span>
             <span>Avaliação inicial rápida e transparente por foto</span>
           </div>
         </div>
@@ -1637,7 +1742,11 @@
             <span>Atendimento no Seu Local</span>
           </div>
           <div class="hero__showcase-badge hero__showcase-badge--bottom">
-            <span class="badge-icon" aria-hidden="true">🔨</span>
+            <svg class="badge-icon-svg" viewBox="0 0 24 24" fill="none" stroke="var(--color-gold)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="m15 12-8.5 8.5c-.8.8-2 .8-2.8 0s-.8-2 0-2.8L12 9"/>
+              <path d="m18 15 3-3c.8-.8.8-2 0-2.8L17 5.2c-.8-.8-2-.8-2.8 0l-3 3"/>
+              <path d="m14 11 3 3"/>
+            </svg>
             <div>
               <strong>Técnica de Precisão Artesanal</strong>
               <small>Preserva a pintura original de fábrica</small>
@@ -1713,22 +1822,45 @@
       </div>
       <div class="why__grid">
         <div class="why-card reveal">
-          <div class="why-card__icon">🔨</div>
+          <div class="why-card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+              <path d="m9 12 2 2 4-4"/>
+            </svg>
+          </div>
           <h3 class="why-card__title">Preserva a Pintura</h3>
           <p class="why-card__text">Preservamos a pintura original sempre que tecnicamente possível.</p>
         </div>
         <div class="why-card reveal">
-          <div class="why-card__icon">💰</div>
+          <div class="why-card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"/>
+              <line x1="7" y1="7" x2="7.01" y2="7"/>
+            </svg>
+          </div>
           <h3 class="why-card__title">Preço Justo</h3>
           <p class="why-card__text">Uma solução eficiente sem pagar por serviços desnecessários.</p>
         </div>
         <div class="why-card reveal">
-          <div class="why-card__icon">⚡</div>
+          <div class="why-card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="12" cy="13" r="8"/>
+              <path d="M12 9v4l2.5 2.5"/>
+              <path d="M5 3 2 6"/>
+              <path d="m22 6-3-3"/>
+              <path d="M12 2v3"/>
+            </svg>
+          </div>
           <h3 class="why-card__title">Mais Agilidade</h3>
           <p class="why-card__text">Dependendo do dano, o reparo pode ser muito mais rápido que uma reparação tradicional.</p>
         </div>
         <div class="why-card reveal">
-          <div class="why-card__icon">📍</div>
+          <div class="why-card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+              <circle cx="12" cy="10" r="3"/>
+            </svg>
+          </div>
           <h3 class="why-card__title">Atendimento Móvel</h3>
           <p class="why-card__text">Nós vamos até você.</p>
         </div>
@@ -1747,19 +1879,46 @@
       </div>
       <div class="steps-flow reveal">
         <div class="step-item">
-          <div class="step-item__icon">📸</div>
+          <div class="step-item__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/>
+              <circle cx="12" cy="13" r="4"/>
+            </svg>
+          </div>
           <p class="step-item__text"><strong>Você manda as fotos</strong>Envie imagens do amassado pelo WhatsApp.</p>
         </div>
         <div class="step-item">
-          <div class="step-item__icon">🔎</div>
+          <div class="step-item__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="11" cy="11" r="8"/>
+              <line x1="21" y1="21" x2="16.65" y2="16.65"/>
+              <line x1="11" y1="8" x2="11" y2="14"/>
+              <line x1="8" y1="11" x2="14" y2="11"/>
+            </svg>
+          </div>
           <p class="step-item__text"><strong>Nós avaliamos</strong>Analisamos o dano e explicamos as possibilidades.</p>
         </div>
         <div class="step-item">
-          <div class="step-item__icon">📅</div>
+          <div class="step-item__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+              <line x1="16" y1="2" x2="16" y2="6"/>
+              <line x1="8" y1="2" x2="8" y2="6"/>
+              <line x1="3" y1="10" x2="21" y2="10"/>
+              <path d="m9 16 2 2 4-4"/>
+            </svg>
+          </div>
           <p class="step-item__text"><strong>Combinamos o serviço</strong>Agendamos o melhor horário e local para você.</p>
         </div>
         <div class="step-item">
-          <div class="step-item__icon">🚗</div>
+          <div class="step-item__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M19 17h2c.6 0 1-.4 1-1v-3c0-.9-.7-1.7-1.5-1.9C18.7 10.6 16 10 16 10s-1.3-1.4-2.2-2.3c-.5-.4-1.1-.7-1.8-.7H5c-.6 0-1 .4-1 1v7c0 .6.4 1 1 1h2"/>
+              <circle cx="7" cy="17" r="2"/>
+              <path d="M9 17h6"/>
+              <circle cx="17" cy="17" r="2"/>
+            </svg>
+          </div>
           <p class="step-item__text"><strong>Nós vamos até você</strong>Realizamos o reparo onde for mais conveniente.</p>
         </div>
       </div>
@@ -1786,19 +1945,34 @@
       <div class="how__steps">
         <div class="how-step reveal">
           <span class="how-step__number">01</span>
-          <div class="how-step__icon">📸</div>
+          <div class="how-step__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <rect x="5" y="2" width="14" height="20" rx="2" ry="2"/>
+              <line x1="12" y1="18" x2="12.01" y2="18"/>
+              <circle cx="12" cy="9" r="2"/>
+            </svg>
+          </div>
           <h3 class="how-step__title">Envie as Fotos</h3>
           <p class="how-step__text">Tire algumas fotos do amassado e envie pelo WhatsApp.</p>
         </div>
         <div class="how-step reveal">
           <span class="how-step__number">02</span>
-          <div class="how-step__icon">💬</div>
+          <div class="how-step__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+              <path d="M8 10h.01M12 10h.01M16 10h.01"/>
+            </svg>
+          </div>
           <h3 class="how-step__title">Receba a Avaliação</h3>
           <p class="how-step__text">Analisamos o dano e explicamos as possibilidades para o seu veículo.</p>
         </div>
         <div class="how-step reveal">
           <span class="how-step__number">03</span>
-          <div class="how-step__icon">🚗</div>
+          <div class="how-step__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <polygon points="3 11 22 2 13 21 11 13 3 11"/>
+            </svg>
+          </div>
           <h3 class="how-step__title">Nós Vamos Até Você</h3>
           <p class="how-step__text">Agendamos o serviço e vamos até o local combinado.</p>
         </div>
@@ -1825,17 +1999,33 @@
       </div>
       <div class="services__grid">
         <div class="service-card reveal">
-          <div class="service-card__icon">🔨</div>
+          <div class="service-card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="m15 12-8.5 8.5c-.8.8-2 .8-2.8 0s-.8-2 0-2.8L12 9"/>
+              <path d="m18 15 3-3c.8-.8.8-2 0-2.8L17 5.2c-.8-.8-2-.8-2.8 0l-3 3"/>
+              <path d="m14 11 3 3"/>
+            </svg>
+          </div>
           <h3 class="service-card__title">Martelinho de Ouro</h3>
           <p class="service-card__text">Reparo de pequenos e médios amassados.</p>
         </div>
         <div class="service-card reveal">
-          <div class="service-card__icon">🌧️</div>
+          <div class="service-card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z"/>
+              <path d="M8 19v2M12 19v3M16 19v2"/>
+            </svg>
+          </div>
           <h3 class="service-card__title">Reparo de Granizo</h3>
           <p class="service-card__text">Recuperação de pontos de amassamento preservando a pintura quando tecnicamente possível.</p>
         </div>
         <div class="service-card reveal">
-          <div class="service-card__icon">🚗</div>
+          <div class="service-card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M5 17a2 2 0 1 0 4 0 2 2 0 1 0-4 0ZM15 17a2 2 0 1 0 4 0 2 2 0 1 0-4 0Z"/>
+              <path d="M5 17H3v-4l2-5h10l3 4.5 2 .5a2 2 0 0 1 2 2v2h-3M9 17h6"/>
+            </svg>
+          </div>
           <h3 class="service-card__title">Reparos em Peças da Carroceria</h3>
           <p class="service-card__text">Portas, paralamas, capô, teto e outras peças, conforme as características do dano.</p>
         </div>
@@ -1998,7 +2188,10 @@
       <div class="cta-final__content reveal">
         <h2 class="cta-final__title">Seu carro está amassado?</h2>
         <p class="cta-final__subtitle">Resolva isso sem perder tempo levando o carro até uma oficina.</p>
-        <p class="cta-final__instruction">📸 Mande uma foto do amassado. Nós avaliamos e informamos as possibilidades para o reparo.</p>
+        <p class="cta-final__instruction">
+          <svg class="inline-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg>
+          Mande uma foto do amassado. Nós avaliamos e informamos as possibilidades para o reparo.
+        </p>
         <a href="https://wa.me/5511993955168?text=Ol%C3%A1!%20Vi%20o%20site%20da%20Oroboros%20e%20gostaria%20de%20enviar%20fotos%20do%20meu%20carro%20para%20uma%20avalia%C3%A7%C3%A3o%20sem%20compromisso."
            class="cta-btn cta-btn--primary"
            target="_blank"
