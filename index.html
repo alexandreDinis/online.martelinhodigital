@@ -1,0 +1,2097 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Martelinho de Ouro a Domicílio | Oroboros</title>
+  <meta name="description" content="Martelinho de ouro a domicílio em São Paulo e região do ABC. Envie fotos do amassado pelo WhatsApp e receba uma avaliação sem compromisso. Oroboros — nós vamos até você.">
+  <meta name="theme-color" content="#000000">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://martelinhodigital.online">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="assets/img/logo-oroboros-small.webp">
+  <link rel="apple-touch-icon" href="assets/img/logo-oroboros-full.png">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Martelinho de Ouro a Domicílio | Oroboros">
+  <meta property="og:description" content="Reparo de amassados preservando a pintura original. Atendimento móvel — nós vamos até você. Envie fotos pelo WhatsApp.">
+  <meta property="og:url" content="https://martelinhodigital.online">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://martelinhodigital.online/assets/img/logo-oroboros-full.png">
+  <meta property="og:locale" content="pt_BR">
+
+  <!-- Preload hero image -->
+  <link rel="preload" as="image" href="assets/img/martelinho-de-ouro-servico-lateral.webp" type="image/webp">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Orbitron:wght@700;800;900&display=swap" rel="stylesheet">
+
+  <!-- JSON-LD Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "AutoRepair",
+    "name": "Oroboros Martelinho de Ouro",
+    "url": "https://martelinhodigital.online",
+    "telephone": "+5511993955168",
+    "description": "Martelinho de ouro a domicílio. Reparo de amassados preservando a pintura original. Atendimento móvel em São Paulo e região do ABC.",
+    "image": "https://martelinhodigital.online/assets/img/logo-oroboros-full.png",
+    "priceRange": "$$",
+    "areaServed": [
+      { "@type": "City", "name": "Santo André" },
+      { "@type": "City", "name": "São Bernardo do Campo" },
+      { "@type": "City", "name": "São Caetano do Sul" },
+      { "@type": "City", "name": "São Paulo" }
+    ],
+    "openingHoursSpecification": {
+      "@type": "OpeningHoursSpecification",
+      "comment": "Horário a confirmar — entre em contato pelo WhatsApp."
+    },
+    "sameAs": []
+  }
+  </script>
+
+  <!-- FAQ Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "O martelinho de ouro danifica a pintura?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Quando o reparo é adequado para a técnica, o objetivo é recuperar o amassado preservando a pintura original."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Vocês atendem em domicílio?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Sim. A Oroboros vai até o local combinado dentro da nossa área de atendimento."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Como faço para saber quanto vai custar?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Envie fotos do amassado pelo WhatsApp. A partir das imagens conseguimos fazer uma avaliação inicial."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Qualquer amassado pode ser reparado?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Não necessariamente. O resultado depende de fatores como profundidade, localização, acesso à parte interna da peça e condição da pintura. A avaliação determina se o martelinho é indicado."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Preciso levar o carro até vocês?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Não. Nosso diferencial é justamente o atendimento onde você estiver, dentro da nossa área de cobertura."
+        }
+      }
+    ]
+  }
+  </script>
+
+  <style>
+    /* ========================================
+       DESIGN SYSTEM — OROBOROS
+       Palette extracted from logo:
+       Gold/Copper ouroboros on black
+       ======================================== */
+
+    :root {
+      /* Brand Colors — from Oroboros logo */
+      --color-gold: #D4A574;
+      --color-gold-light: #E8C9A4;
+      --color-gold-dark: #B8854E;
+      --color-gold-hover: #C4955A;
+
+      /* CTA Gold — reinforces "martelinho de OURO" */
+      --color-cta: #C9A030;
+      --color-cta-hover: #D4AD3A;
+      --color-cta-dark: #9A7A20;
+
+      /* Backgrounds */
+      --color-bg-primary: #000000;
+      --color-bg-secondary: #0A0A0A;
+      --color-bg-tertiary: #111111;
+      --color-bg-card: #1A1A1A;
+      --color-bg-card-hover: #222222;
+      --color-bg-light: #F5F5F5;
+
+      /* Text */
+      --color-text-primary: #FFFFFF;
+      --color-text-secondary: #B0B0B0;
+      --color-text-muted: #777777;
+      --color-text-dark: #111111;
+
+      /* Borders */
+      --color-border: #2A2A2A;
+      --color-border-light: #333333;
+
+      /* Typography */
+      --font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+
+      /* Spacing */
+      --space-xs: 0.25rem;
+      --space-sm: 0.5rem;
+      --space-md: 1rem;
+      --space-lg: 1.5rem;
+      --space-xl: 2rem;
+      --space-2xl: 3rem;
+      --space-3xl: 4rem;
+      --space-4xl: 6rem;
+
+      /* Border Radius */
+      --radius-sm: 4px;
+      --radius-md: 8px;
+      --radius-lg: 12px;
+
+      /* Transitions */
+      --transition-fast: 150ms ease;
+      --transition-base: 250ms ease;
+      --transition-slow: 400ms ease;
+
+      /* Shadows */
+      --shadow-sm: 0 1px 3px rgba(0,0,0,0.3);
+      --shadow-md: 0 4px 12px rgba(0,0,0,0.4);
+      --shadow-lg: 0 8px 30px rgba(0,0,0,0.5);
+      --shadow-gold: 0 0 20px rgba(212,165,116,0.15);
+
+      /* Breakpoints (documented for reference) */
+      /* --bp-sm: 640px; --bp-md: 768px; --bp-lg: 1024px; --bp-xl: 1280px; */
+    }
+
+    /* ========================================
+       RESET & BASE
+       ======================================== */
+
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+      -webkit-text-size-adjust: 100%;
+    }
+
+    body {
+      font-family: var(--font-family);
+      background-color: var(--color-bg-primary);
+      color: var(--color-text-primary);
+      line-height: 1.6;
+      overflow-x: hidden;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    button {
+      cursor: pointer;
+      border: none;
+      background: none;
+      font-family: inherit;
+    }
+
+    /* Focus states for accessibility */
+    :focus-visible {
+      outline: 2px solid var(--color-gold);
+      outline-offset: 3px;
+    }
+
+    /* ========================================
+       UTILITIES
+       ======================================== */
+
+    .container {
+      width: 100%;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 var(--space-lg);
+    }
+
+    .section {
+      padding: var(--space-3xl) 0;
+    }
+
+    @media (min-width: 768px) {
+      .section {
+        padding: var(--space-4xl) 0;
+      }
+    }
+
+    .section-label {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.6rem;
+      font-size: 0.75rem;
+      font-weight: 700;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--color-cta);
+      margin-bottom: var(--space-md);
+    }
+
+    .section-label::before {
+      content: '';
+      display: inline-block;
+      width: 24px;
+      height: 2px;
+      background: var(--color-cta);
+      border-radius: 1px;
+    }
+
+    .section-title {
+      font-size: clamp(1.75rem, 5vw, 2.75rem);
+      font-weight: 800;
+      line-height: 1.15;
+      margin-bottom: var(--space-lg);
+    }
+
+    .section-subtitle {
+      font-size: clamp(1rem, 2.5vw, 1.2rem);
+      color: var(--color-text-secondary);
+      max-width: 640px;
+      line-height: 1.6;
+    }
+
+    .text-gold {
+      color: var(--color-gold);
+    }
+
+    .text-center {
+      text-align: center;
+    }
+
+    .mx-auto {
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    /* ========================================
+       CTA BUTTONS
+       ======================================== */
+
+    .cta-btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: var(--space-sm);
+      padding: 1rem 2rem;
+      font-size: 1rem;
+      font-weight: 700;
+      letter-spacing: 0.02em;
+      border-radius: var(--radius-sm);
+      transition: all var(--transition-base);
+      text-align: center;
+      line-height: 1.2;
+    }
+
+    .cta-btn--primary {
+      background: linear-gradient(135deg, #D4AD3A 0%, #C9A030 50%, #B8901E 100%);
+      color: #0A0A0A;
+      box-shadow: 0 4px 20px rgba(201, 160, 48, 0.35);
+      font-weight: 800;
+      letter-spacing: 0.04em;
+    }
+
+    .cta-btn--primary:hover,
+    .cta-btn--primary:focus {
+      background: linear-gradient(135deg, #E0BC4A 0%, #D4AD3A 50%, #C9A030 100%);
+      box-shadow: 0 6px 28px rgba(201, 160, 48, 0.55);
+      transform: translateY(-2px);
+    }
+
+    .cta-btn--primary:active {
+      transform: translateY(0);
+    }
+
+    .cta-btn--outline {
+      background: transparent;
+      color: var(--color-gold);
+      border: 2px solid var(--color-gold);
+    }
+
+    .cta-btn--outline:hover,
+    .cta-btn--outline:focus {
+      background: var(--color-gold);
+      color: var(--color-bg-primary);
+    }
+
+    .cta-whatsapp-icon {
+      width: 22px;
+      height: 22px;
+      flex-shrink: 0;
+    }
+
+    .cta-subtext {
+      display: block;
+      margin-top: var(--space-sm);
+      font-size: 0.85rem;
+      color: var(--color-text-muted);
+    }
+
+    /* ========================================
+       HEADER / NAV (minimal)
+       ======================================== */
+
+    .header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 100;
+      background: rgba(0, 0, 0, 0.85);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--color-border);
+      transition: background var(--transition-base);
+    }
+
+    .header__inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0.75rem var(--space-lg);
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .header__logo {
+      display: flex;
+      align-items: center;
+      gap: 0.9rem;
+      text-decoration: none;
+    }
+
+    .header__logo-img {
+      height: 50px;
+      width: auto;
+      object-fit: contain;
+      filter: drop-shadow(0 0 10px rgba(201, 160, 48, 0.45));
+      transition: transform var(--transition-base), filter var(--transition-base);
+    }
+
+    .header__logo:hover .header__logo-img {
+      transform: scale(1.06);
+      filter: drop-shadow(0 0 16px rgba(255, 215, 0, 0.75));
+    }
+
+    @media (min-width: 768px) {
+      .header__logo-img {
+        height: 62px;
+      }
+    }
+
+    .header__brand-text {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      line-height: 1.1;
+    }
+
+    .header__brand-title {
+      font-family: 'Orbitron', 'Inter', -apple-system, sans-serif;
+      font-size: clamp(1.15rem, 2.5vw, 1.55rem);
+      font-weight: 900;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      background: linear-gradient(
+        110deg,
+        #B38728 0%,
+        #FBF5B7 20%,
+        #DAA520 40%,
+        #AA771C 50%,
+        #FFFFFF 65%,
+        #FBF5B7 80%,
+        #B38728 100%
+      );
+      background-size: 250% 100%;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      animation: gold-reluz 4s ease-in-out infinite;
+      display: inline-block;
+    }
+
+    .header__brand-sub {
+      font-family: 'Inter', -apple-system, sans-serif;
+      font-size: clamp(0.55rem, 1vw, 0.65rem);
+      font-weight: 700;
+      letter-spacing: 0.28em;
+      text-transform: uppercase;
+      color: rgba(212, 165, 116, 0.85);
+      margin-top: 2px;
+    }
+
+    @keyframes gold-reluz {
+      0% {
+        background-position: 0% 50%;
+        filter: drop-shadow(0 0 3px rgba(255, 215, 0, 0.3));
+      }
+      50% {
+        background-position: 100% 50%;
+        filter: drop-shadow(0 0 10px rgba(255, 215, 0, 0.75)) drop-shadow(0 0 20px rgba(218, 165, 32, 0.55));
+      }
+      100% {
+        background-position: 200% 50%;
+        filter: drop-shadow(0 0 3px rgba(255, 215, 0, 0.3));
+      }
+    }
+
+    .header__cta {
+      display: none;
+      padding: 0.6rem 1.2rem;
+      font-size: 0.85rem;
+    }
+
+    @media (min-width: 768px) {
+      .header__cta {
+        display: inline-flex;
+      }
+    }
+
+    /* ========================================
+       HERO
+       ======================================== */
+
+    .hero {
+      position: relative;
+      min-height: 100vh;
+      min-height: 100svh;
+      display: flex;
+      align-items: center;
+      padding: 100px 0 60px;
+      overflow: hidden;
+      background: radial-gradient(circle at 70% 35%, rgba(201,160,48,0.12) 0%, rgba(10,10,10,0.98) 55%, #000000 100%);
+    }
+
+    /* Ambient lighting & tech pattern */
+    .hero::before {
+      content: '';
+      position: absolute;
+      top: -15%;
+      right: -10%;
+      width: 750px;
+      height: 750px;
+      background: radial-gradient(circle, rgba(201,160,48,0.14) 0%, transparent 65%);
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    .hero::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background-image: 
+        linear-gradient(rgba(201,160,48,0.025) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(201,160,48,0.025) 1px, transparent 1px);
+      background-size: 50px 50px;
+      pointer-events: none;
+      z-index: 0;
+      mask-image: linear-gradient(to bottom, rgba(0,0,0,1) 40%, transparent 100%);
+      -webkit-mask-image: linear-gradient(to bottom, rgba(0,0,0,1) 40%, transparent 100%);
+    }
+
+    .hero__grid {
+      position: relative;
+      z-index: 1;
+      display: grid;
+      gap: var(--space-2xl);
+      align-items: center;
+    }
+
+    @media (min-width: 992px) {
+      .hero__grid {
+        grid-template-columns: 1.15fr 0.85fr;
+        gap: var(--space-3xl);
+      }
+    }
+
+    .hero__content {
+      max-width: 640px;
+    }
+
+    .hero__eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.6rem;
+      padding: 0.45rem 1.1rem;
+      background: rgba(201, 160, 48, 0.12);
+      border: 1px solid rgba(201, 160, 48, 0.35);
+      border-radius: 100px;
+      font-size: 0.82rem;
+      font-weight: 600;
+      color: var(--color-gold-light);
+      margin-bottom: var(--space-lg);
+      letter-spacing: 0.04em;
+      box-shadow: 0 0 20px rgba(201,160,48,0.12);
+    }
+
+    .pulse-dot {
+      width: 8px;
+      height: 8px;
+      background: #51cf66;
+      border-radius: 50%;
+      box-shadow: 0 0 0 0 rgba(81, 207, 102, 0.7);
+      animation: pulse-green 2s infinite;
+      display: inline-block;
+    }
+
+    @keyframes pulse-green {
+      0% {
+        box-shadow: 0 0 0 0 rgba(81, 207, 102, 0.7);
+      }
+      70% {
+        box-shadow: 0 0 0 8px rgba(81, 207, 102, 0);
+      }
+      100% {
+        box-shadow: 0 0 0 0 rgba(81, 207, 102, 0);
+      }
+    }
+
+    .hero h1 {
+      font-size: clamp(0.85rem, 1.8vw, 0.95rem);
+      font-weight: 800;
+      color: var(--color-cta);
+      margin-bottom: var(--space-sm);
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+    }
+
+    .hero h1::before {
+      content: '';
+      display: inline-block;
+      width: 30px;
+      height: 2px;
+      background: linear-gradient(90deg, #C9A030, #D4A574);
+      border-radius: 1px;
+    }
+
+    .hero__headline {
+      font-size: clamp(2.3rem, 6vw, 3.8rem);
+      font-weight: 900;
+      line-height: 1.08;
+      margin-bottom: var(--space-md);
+      letter-spacing: -0.03em;
+      color: #FFFFFF;
+    }
+
+    .hero__headline-gradient {
+      background: linear-gradient(135deg, #FFFFFF 20%, #E8D5B0 60%, #C9A030 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    .hero__subheadline {
+      font-size: clamp(1rem, 2vw, 1.18rem);
+      color: var(--color-text-secondary);
+      margin-bottom: var(--space-xl);
+      line-height: 1.6;
+    }
+
+    .hero__features {
+      display: flex;
+      flex-direction: column;
+      gap: 0.65rem;
+      margin-bottom: var(--space-xl);
+    }
+
+    .hero__feature-item {
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+      font-size: 0.92rem;
+      color: var(--color-text-primary);
+      font-weight: 500;
+    }
+
+    .hero__feature-icon {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 22px;
+      height: 22px;
+      background: rgba(201, 160, 48, 0.15);
+      border-radius: 50%;
+      font-size: 0.75rem;
+      color: var(--color-cta);
+      flex-shrink: 0;
+    }
+
+    .hero__cta-group {
+      display: flex;
+      flex-direction: column;
+      gap: var(--space-sm);
+    }
+
+    .hero__cta-group .cta-btn {
+      width: 100%;
+      max-width: 400px;
+      font-size: 1.05rem;
+      padding: 1.15rem 2rem;
+    }
+
+    @media (min-width: 768px) {
+      .hero__cta-group .cta-btn {
+        width: auto;
+      }
+    }
+
+    .hero__trust-line {
+      margin-top: var(--space-sm);
+      font-size: 0.82rem;
+      color: var(--color-text-muted);
+      letter-spacing: 0.02em;
+    }
+
+    .hero__trust-line span {
+      margin: 0 0.35rem;
+      opacity: 0.4;
+    }
+
+    /* Hero Showcase Card (Right Column) */
+    .hero__showcase {
+      position: relative;
+      display: flex;
+      justify-content: center;
+    }
+
+    .hero__showcase-card {
+      position: relative;
+      width: 100%;
+      max-width: 440px;
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+      border: 1px solid rgba(201, 160, 48, 0.3);
+      box-shadow: 
+        0 24px 60px rgba(0,0,0,0.9),
+        0 0 50px rgba(201, 160, 48, 0.15);
+      background: #0D0D0D;
+    }
+
+    .hero__showcase-img {
+      width: 100%;
+      height: 480px;
+      object-fit: cover;
+      object-position: center 30%;
+      display: block;
+      transition: transform 0.5s ease;
+    }
+
+    .hero__showcase-card:hover .hero__showcase-img {
+      transform: scale(1.03);
+    }
+
+    .hero__showcase-overlay {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(
+        to bottom,
+        rgba(0,0,0,0.15) 0%,
+        rgba(0,0,0,0.2) 50%,
+        rgba(0,0,0,0.85) 100%
+      );
+      pointer-events: none;
+    }
+
+    .hero__showcase-badge {
+      position: absolute;
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border-radius: var(--radius-md);
+      z-index: 2;
+    }
+
+    .hero__showcase-badge--top {
+      top: 16px;
+      right: 16px;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.45rem 0.9rem;
+      background: rgba(0, 0, 0, 0.75);
+      border: 1px solid rgba(201, 160, 48, 0.3);
+      font-size: 0.78rem;
+      font-weight: 600;
+      color: var(--color-gold-light);
+    }
+
+    .hero__showcase-badge--bottom {
+      bottom: 16px;
+      left: 16px;
+      right: 16px;
+      display: flex;
+      align-items: center;
+      gap: 0.8rem;
+      padding: 0.8rem 1rem;
+      background: rgba(10, 10, 10, 0.85);
+      border: 1px solid rgba(201, 160, 48, 0.25);
+    }
+
+    .hero__showcase-badge--bottom .badge-icon {
+      font-size: 1.4rem;
+      flex-shrink: 0;
+    }
+
+    .hero__showcase-badge--bottom strong {
+      display: block;
+      font-size: 0.88rem;
+      color: #FFFFFF;
+      font-weight: 700;
+    }
+
+    .hero__showcase-badge--bottom small {
+      display: block;
+      font-size: 0.76rem;
+      color: var(--color-gold);
+    }
+
+    /* ========================================
+       SECTION: RESULTADOS REAIS
+       ======================================== */
+
+    .results {
+      background: var(--color-bg-secondary);
+    }
+
+    .results__grid {
+      display: grid;
+      gap: var(--space-xl);
+      margin-top: var(--space-2xl);
+    }
+
+    @media (min-width: 768px) {
+      .results__grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    .result-card {
+      background: var(--color-bg-card);
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+      transition: border-color var(--transition-base), box-shadow var(--transition-base);
+    }
+
+    .result-card:hover {
+      border-color: var(--color-gold-dark);
+      box-shadow: var(--shadow-gold);
+    }
+
+    .result-card__label {
+      padding: var(--space-md) var(--space-lg);
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: var(--color-gold);
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      border-bottom: 1px solid var(--color-border);
+    }
+
+    .result-card__images {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      position: relative;
+    }
+
+    .result-card__side {
+      position: relative;
+      aspect-ratio: 4/3;
+      overflow: hidden;
+    }
+
+    .result-card__side img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform var(--transition-slow);
+    }
+
+    .result-card:hover .result-card__side img {
+      transform: scale(1.03);
+    }
+
+    .result-card__tag {
+      position: absolute;
+      bottom: var(--space-sm);
+      left: var(--space-sm);
+      padding: 0.2rem 0.6rem;
+      background: rgba(0,0,0,0.75);
+      backdrop-filter: blur(4px);
+      border-radius: var(--radius-sm);
+      font-size: 0.7rem;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+    }
+
+    .result-card__tag--antes {
+      color: #ff6b6b;
+    }
+
+    .result-card__tag--depois {
+      color: #51cf66;
+    }
+
+    .result-card__divider {
+      position: absolute;
+      left: 50%;
+      top: 0;
+      bottom: 0;
+      width: 3px;
+      background: var(--color-gold);
+      transform: translateX(-50%);
+      z-index: 2;
+    }
+
+    .result-card__divider::after {
+      content: '→';
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 28px;
+      height: 28px;
+      background: var(--color-gold);
+      color: var(--color-bg-primary);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.75rem;
+      font-weight: 700;
+    }
+
+    /* ========================================
+       SECTION: POR QUE MARTELINHO
+       ======================================== */
+
+    .why {
+      background: var(--color-bg-primary);
+    }
+
+    .why__grid {
+      display: grid;
+      gap: var(--space-lg);
+      margin-top: var(--space-2xl);
+    }
+
+    @media (min-width: 640px) {
+      .why__grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (min-width: 1024px) {
+      .why__grid {
+        grid-template-columns: repeat(4, 1fr);
+      }
+    }
+
+    .why-card {
+      padding: var(--space-xl);
+      background: var(--color-bg-card);
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-lg);
+      transition: border-color var(--transition-base), transform var(--transition-base);
+    }
+
+    .why-card:hover {
+      border-color: var(--color-gold-dark);
+      transform: translateY(-4px);
+    }
+
+    .why-card__icon {
+      font-size: 1.75rem;
+      margin-bottom: var(--space-md);
+    }
+
+    .why-card__title {
+      font-size: 1rem;
+      font-weight: 700;
+      margin-bottom: var(--space-sm);
+      color: var(--color-text-primary);
+    }
+
+    .why-card__text {
+      font-size: 0.9rem;
+      color: var(--color-text-secondary);
+      line-height: 1.5;
+    }
+
+    /* ========================================
+       SECTION: DIFERENCIAL (split layout)
+       ======================================== */
+
+    .diferencial {
+      background: var(--color-bg-tertiary);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .diferencial::before {
+      content: '';
+      position: absolute;
+      top: -50%;
+      right: -20%;
+      width: 600px;
+      height: 600px;
+      background: radial-gradient(circle, rgba(212,165,116,0.05) 0%, transparent 70%);
+      pointer-events: none;
+    }
+
+    .diferencial__content {
+      position: relative;
+      z-index: 1;
+    }
+
+    .diferencial__highlight {
+      font-size: clamp(1.5rem, 4vw, 2.5rem);
+      font-weight: 900;
+      color: var(--color-gold);
+      margin-bottom: var(--space-md);
+    }
+
+    .diferencial__text {
+      font-size: 1.05rem;
+      color: var(--color-text-secondary);
+      margin-bottom: var(--space-2xl);
+      max-width: 560px;
+    }
+
+    .steps-flow {
+      display: grid;
+      gap: var(--space-lg);
+      margin-bottom: var(--space-2xl);
+    }
+
+    @media (min-width: 640px) {
+      .steps-flow {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (min-width: 1024px) {
+      .steps-flow {
+        grid-template-columns: repeat(4, 1fr);
+      }
+    }
+
+    .step-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      padding: var(--space-xl) var(--space-md);
+      background: var(--color-bg-card);
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-lg);
+      position: relative;
+      transition: border-color var(--transition-base);
+    }
+
+    .step-item:hover {
+      border-color: var(--color-gold-dark);
+    }
+
+    .step-item__icon {
+      font-size: 2rem;
+      margin-bottom: var(--space-md);
+    }
+
+    .step-item__text {
+      font-size: 0.9rem;
+      color: var(--color-text-secondary);
+      line-height: 1.5;
+    }
+
+    .step-item__text strong {
+      display: block;
+      color: var(--color-text-primary);
+      font-weight: 700;
+      margin-bottom: var(--space-xs);
+      font-size: 0.95rem;
+    }
+
+    /* Arrow between steps (desktop) */
+    @media (min-width: 1024px) {
+      .step-item:not(:last-child)::after {
+        content: '→';
+        position: absolute;
+        right: -18px;
+        top: 50%;
+        transform: translateY(-50%);
+        color: var(--color-gold);
+        font-size: 1.2rem;
+        font-weight: 700;
+        z-index: 2;
+      }
+    }
+
+    /* ========================================
+       SECTION: COMO FUNCIONA
+       ======================================== */
+
+    .how {
+      background: var(--color-bg-primary);
+    }
+
+    .how__steps {
+      display: grid;
+      gap: var(--space-xl);
+      margin-top: var(--space-2xl);
+      counter-reset: step-counter;
+    }
+
+    @media (min-width: 768px) {
+      .how__steps {
+        grid-template-columns: repeat(3, 1fr);
+      }
+    }
+
+    .how-step {
+      position: relative;
+      padding: var(--space-2xl) var(--space-xl);
+      background: var(--color-bg-card);
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-lg);
+      text-align: center;
+      counter-increment: step-counter;
+      transition: border-color var(--transition-base), transform var(--transition-base);
+    }
+
+    .how-step:hover {
+      border-color: var(--color-gold-dark);
+      transform: translateY(-4px);
+    }
+
+    .how-step__number {
+      font-size: 3rem;
+      font-weight: 900;
+      color: var(--color-gold);
+      opacity: 0.2;
+      position: absolute;
+      top: var(--space-md);
+      left: var(--space-xl);
+      line-height: 1;
+    }
+
+    .how-step__icon {
+      font-size: 2.5rem;
+      margin-bottom: var(--space-lg);
+    }
+
+    .how-step__title {
+      font-size: 1.1rem;
+      font-weight: 700;
+      margin-bottom: var(--space-sm);
+    }
+
+    .how-step__text {
+      font-size: 0.9rem;
+      color: var(--color-text-secondary);
+      line-height: 1.5;
+    }
+
+    /* ========================================
+       SECTION: SERVIÇOS
+       ======================================== */
+
+    .services {
+      background: var(--color-bg-secondary);
+    }
+
+    .services__grid {
+      display: grid;
+      gap: var(--space-lg);
+      margin-top: var(--space-2xl);
+    }
+
+    @media (min-width: 768px) {
+      .services__grid {
+        grid-template-columns: repeat(3, 1fr);
+      }
+    }
+
+    .service-card {
+      padding: var(--space-2xl) var(--space-xl);
+      background: var(--color-bg-card);
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-lg);
+      text-align: center;
+      transition: border-color var(--transition-base), transform var(--transition-base);
+    }
+
+    .service-card:hover {
+      border-color: var(--color-gold-dark);
+      transform: translateY(-4px);
+    }
+
+    .service-card__icon {
+      font-size: 2.5rem;
+      margin-bottom: var(--space-lg);
+    }
+
+    .service-card__title {
+      font-size: 1.1rem;
+      font-weight: 700;
+      margin-bottom: var(--space-sm);
+    }
+
+    .service-card__text {
+      font-size: 0.9rem;
+      color: var(--color-text-secondary);
+      line-height: 1.5;
+    }
+
+    /* ========================================
+       SECTION: CLIENTES
+       ======================================== */
+
+    .clients {
+      background: var(--color-bg-primary);
+    }
+
+    .clients__logos {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      gap: var(--space-2xl);
+      margin-top: var(--space-2xl);
+    }
+
+    .clients__logo {
+      height: 50px;
+      width: auto;
+      object-fit: contain;
+      filter: grayscale(100%) brightness(0.7);
+      opacity: 0.6;
+      transition: all var(--transition-base);
+    }
+
+    .clients__logo:hover {
+      filter: grayscale(0%) brightness(1);
+      opacity: 1;
+    }
+
+    @media (min-width: 768px) {
+      .clients__logo {
+        height: 60px;
+      }
+    }
+
+    /* ========================================
+       SECTION: SOBRE
+       ======================================== */
+
+    .about {
+      background: var(--color-bg-tertiary);
+    }
+
+    .about__content {
+      max-width: 680px;
+    }
+
+    .about__text {
+      font-size: 1.05rem;
+      color: var(--color-text-secondary);
+      line-height: 1.7;
+      margin-bottom: var(--space-lg);
+    }
+
+    .about__text:last-of-type {
+      margin-bottom: 0;
+    }
+
+
+
+    /* ========================================
+       SECTION: FAQ
+       ======================================== */
+
+    .faq {
+      background: var(--color-bg-secondary);
+    }
+
+    .faq__list {
+      max-width: 780px;
+      margin: var(--space-2xl) auto 0;
+      display: flex;
+      flex-direction: column;
+      gap: 1px;
+    }
+
+    .faq-item {
+      background: var(--color-bg-card);
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-md);
+      overflow: hidden;
+      margin-bottom: var(--space-sm);
+    }
+
+    .faq-item__question {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: var(--space-lg) var(--space-xl);
+      background: none;
+      color: var(--color-text-primary);
+      font-size: 1rem;
+      font-weight: 600;
+      text-align: left;
+      cursor: pointer;
+      transition: color var(--transition-fast);
+    }
+
+    .faq-item__question:hover {
+      color: var(--color-gold);
+    }
+
+    .faq-item__question::after {
+      content: '+';
+      font-size: 1.4rem;
+      font-weight: 300;
+      color: var(--color-gold);
+      transition: transform var(--transition-base);
+      flex-shrink: 0;
+      margin-left: var(--space-md);
+    }
+
+    .faq-item.active .faq-item__question::after {
+      content: '−';
+    }
+
+    .faq-item__answer {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height var(--transition-slow), padding var(--transition-slow);
+    }
+
+    .faq-item.active .faq-item__answer {
+      max-height: 300px;
+    }
+
+    .faq-item__answer-inner {
+      padding: 0 var(--space-xl) var(--space-lg);
+      font-size: 0.95rem;
+      color: var(--color-text-secondary);
+      line-height: 1.6;
+    }
+
+    /* ========================================
+       SECTION: ÁREA DE ATENDIMENTO
+       ======================================== */
+
+    .coverage {
+      background: var(--color-bg-primary);
+    }
+
+    .coverage__cities {
+      display: flex;
+      flex-wrap: wrap;
+      gap: var(--space-sm);
+      justify-content: center;
+      margin-top: var(--space-xl);
+    }
+
+    .coverage__city {
+      padding: 0.4rem 1rem;
+      background: var(--color-bg-card);
+      border: 1px solid var(--color-border);
+      border-radius: 100px;
+      font-size: 0.85rem;
+      color: var(--color-text-secondary);
+      transition: border-color var(--transition-fast), color var(--transition-fast);
+    }
+
+    .coverage__city:hover {
+      border-color: var(--color-gold-dark);
+      color: var(--color-gold);
+    }
+
+    /* ========================================
+       SECTION: CTA FINAL
+       ======================================== */
+
+    .cta-final {
+      background: linear-gradient(135deg, var(--color-bg-tertiary) 0%, var(--color-bg-primary) 100%);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .cta-final::before {
+      content: '';
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 800px;
+      height: 800px;
+      background: radial-gradient(circle, rgba(212,165,116,0.06) 0%, transparent 60%);
+      pointer-events: none;
+    }
+
+    .cta-final__content {
+      position: relative;
+      z-index: 1;
+      text-align: center;
+      max-width: 640px;
+      margin: 0 auto;
+    }
+
+    .cta-final__title {
+      font-size: clamp(2rem, 5vw, 3rem);
+      font-weight: 900;
+      line-height: 1.1;
+      margin-bottom: var(--space-md);
+    }
+
+    .cta-final__subtitle {
+      font-size: clamp(1rem, 2.5vw, 1.15rem);
+      color: var(--color-text-secondary);
+      margin-bottom: var(--space-lg);
+    }
+
+    .cta-final__instruction {
+      font-size: 1.1rem;
+      margin-bottom: var(--space-xl);
+      color: var(--color-text-primary);
+    }
+
+    .cta-final .cta-btn {
+      font-size: 1.1rem;
+      padding: 1.2rem 2.5rem;
+    }
+
+    .cta-final__disclaimer {
+      margin-top: var(--space-md);
+      font-size: 0.85rem;
+      color: var(--color-text-muted);
+    }
+
+    /* ========================================
+       FOOTER
+       ======================================== */
+
+    .footer {
+      background: var(--color-bg-primary);
+      border-top: 1px solid var(--color-border);
+      padding: var(--space-2xl) 0;
+    }
+
+    .footer__inner {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: var(--space-lg);
+      text-align: center;
+    }
+
+    .footer__logo {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+
+    .footer__logo-img {
+      height: 44px;
+      width: auto;
+      object-fit: contain;
+      filter: drop-shadow(0 0 8px rgba(201, 160, 48, 0.4));
+    }
+
+    .footer__logo-text {
+      font-family: 'Orbitron', 'Inter', -apple-system, sans-serif;
+      font-size: 0.95rem;
+      font-weight: 800;
+      letter-spacing: 0.12em;
+      color: var(--color-gold);
+    }
+
+    .footer__info {
+      font-size: 0.85rem;
+      color: var(--color-text-muted);
+      line-height: 1.8;
+    }
+
+    .footer__info a {
+      color: var(--color-gold);
+      transition: color var(--transition-fast);
+    }
+
+    .footer__info a:hover {
+      color: var(--color-gold-light);
+    }
+
+    .footer__legal {
+      font-size: 0.75rem;
+      color: var(--color-text-muted);
+      opacity: 0.6;
+    }
+
+    /* ========================================
+       WHATSAPP FLOATING BUTTON
+       ======================================== */
+
+    .whatsapp-float {
+      position: fixed;
+      bottom: var(--space-xl);
+      right: var(--space-xl);
+      z-index: 90;
+      width: 60px;
+      height: 60px;
+      background: #25D366;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 4px 20px rgba(37, 211, 102, 0.4);
+      transition: transform var(--transition-base), box-shadow var(--transition-base);
+    }
+
+    .whatsapp-float:hover {
+      transform: scale(1.1);
+      box-shadow: 0 6px 28px rgba(37, 211, 102, 0.55);
+    }
+
+    .whatsapp-float svg {
+      width: 32px;
+      height: 32px;
+      fill: #fff;
+    }
+
+    /* Pulse animation */
+    .whatsapp-float::before {
+      content: '';
+      position: absolute;
+      inset: -4px;
+      border-radius: 50%;
+      border: 2px solid rgba(37, 211, 102, 0.4);
+      animation: wa-pulse 2s ease-in-out infinite;
+    }
+
+    @keyframes wa-pulse {
+      0%, 100% { transform: scale(1); opacity: 1; }
+      50% { transform: scale(1.15); opacity: 0; }
+    }
+
+    @media (max-width: 767px) {
+      .whatsapp-float {
+        bottom: var(--space-lg);
+        right: var(--space-lg);
+        width: 56px;
+        height: 56px;
+      }
+      .whatsapp-float svg {
+        width: 28px;
+        height: 28px;
+      }
+    }
+
+    /* ========================================
+       SCROLL ANIMATIONS
+       ======================================== */
+
+    .reveal {
+      opacity: 0;
+      transform: translateY(30px);
+      transition: opacity 0.6s ease, transform 0.6s ease;
+    }
+
+    .reveal.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    /* Reduced motion */
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+      }
+      .reveal {
+        opacity: 1;
+        transform: none;
+      }
+      html {
+        scroll-behavior: auto;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <!-- ==================== HEADER ==================== -->
+  <header class="header" role="banner">
+    <div class="header__inner">
+      <a href="#" class="header__logo" aria-label="Oroboros Martelinho de Ouro — Início">
+        <img src="assets/img/logo-oroboros-emblem.webp"
+             alt="Emblema Oroboros"
+             class="header__logo-img"
+             width="64"
+             height="53">
+        <div class="header__brand-text">
+          <span class="header__brand-title">OROBOROS</span>
+          <span class="header__brand-sub">MARTELINHO DE OURO</span>
+        </div>
+      </a>
+      <a href="https://wa.me/5511993955168?text=Ol%C3%A1!%20Vi%20o%20site%20da%20Oroboros%20e%20gostaria%20de%20enviar%20fotos%20do%20meu%20carro%20para%20uma%20avalia%C3%A7%C3%A3o%20sem%20compromisso."
+         class="cta-btn cta-btn--primary header__cta"
+         target="_blank"
+         rel="noopener noreferrer"
+         aria-label="Falar pelo WhatsApp">
+        <svg class="cta-whatsapp-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        WhatsApp
+      </a>
+    </div>
+  </header>
+
+  <!-- ==================== HERO ==================== -->
+  <section class="hero" id="inicio">
+    <div class="container hero__grid">
+      <div class="hero__content">
+        <div class="hero__eyebrow">
+          <span class="pulse-dot" aria-hidden="true"></span>
+          <span>Atendimento Móvel • Nós vamos até você</span>
+        </div>
+        <h1>Martelinho de Ouro a Domicílio</h1>
+        <p class="hero__headline">
+          Amassou o carro?<br>
+          <span class="hero__headline-gradient">A gente resolve onde você estiver.</span>
+        </p>
+        <p class="hero__subheadline">
+          Qualidade de concessionária, preço justo e o conforto de recuperar seu veículo na sua garagem ou no trabalho, sem burocracia.
+        </p>
+        <div class="hero__features">
+          <div class="hero__feature-item">
+            <span class="hero__feature-icon">✓</span>
+            <span>Preserva 100% da pintura original de fábrica</span>
+          </div>
+          <div class="hero__feature-item">
+            <span class="hero__feature-icon">✓</span>
+            <span>Sem filas nem dias com o carro parado em oficina</span>
+          </div>
+          <div class="hero__feature-item">
+            <span class="hero__feature-icon">✓</span>
+            <span>Avaliação inicial rápida e transparente por foto</span>
+          </div>
+        </div>
+        <div class="hero__cta-group">
+          <a href="https://wa.me/5511993955168?text=Ol%C3%A1!%20Vi%20o%20site%20da%20Oroboros%20e%20gostaria%20de%20enviar%20fotos%20do%20meu%20carro%20para%20uma%20avalia%C3%A7%C3%A3o%20sem%20compromisso."
+             class="cta-btn cta-btn--primary"
+             target="_blank"
+             rel="noopener noreferrer"
+             aria-label="Quero avaliar meu carro pelo WhatsApp">
+            <svg class="cta-whatsapp-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            QUERO AVALIAR MEU CARRO
+          </a>
+        </div>
+        <p class="hero__trust-line">
+          Resposta rápida <span>•</span> Orçamento pelo WhatsApp <span>•</span> Sem compromisso
+        </p>
+      </div>
+      <div class="hero__showcase">
+        <div class="hero__showcase-card">
+          <img src="assets/img/martelinho-de-ouro-servico-lateral.webp"
+               alt="Técnico realizando serviço de martelinho de ouro preservando a pintura original"
+               width="720"
+               height="1600"
+               fetchpriority="high"
+               decoding="async"
+               class="hero__showcase-img">
+          <div class="hero__showcase-overlay"></div>
+          <div class="hero__showcase-badge hero__showcase-badge--top">
+            <span class="pulse-dot" aria-hidden="true"></span>
+            <span>Atendimento no Seu Local</span>
+          </div>
+          <div class="hero__showcase-badge hero__showcase-badge--bottom">
+            <span class="badge-icon" aria-hidden="true">🔨</span>
+            <div>
+              <strong>Técnica de Precisão Artesanal</strong>
+              <small>Preserva a pintura original de fábrica</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== RESULTADOS REAIS ==================== -->
+  <section class="results section" id="resultados">
+    <div class="container">
+      <div class="text-center reveal">
+        <span class="section-label">Prova real</span>
+        <h2 class="section-title">Resultados Reais de Martelinho de Ouro</h2>
+        <p class="section-subtitle mx-auto">Veja alguns dos reparos realizados pela Oroboros.</p>
+      </div>
+      <div class="results__grid">
+        <!-- Card 1: Paralama -->
+        <div class="result-card reveal">
+          <div class="result-card__label">Paralama — Reparo de amassado</div>
+          <div class="result-card__images">
+            <div class="result-card__side">
+              <img src="assets/img/martelinho-de-ouro-paralama-antes.webp"
+                   alt="Antes do reparo — amassado no paralama do veículo"
+                   loading="lazy"
+                   width="600" height="450">
+              <span class="result-card__tag result-card__tag--antes">Antes</span>
+            </div>
+            <div class="result-card__divider" aria-hidden="true"></div>
+            <div class="result-card__side">
+              <img src="assets/img/martelinho-de-ouro-paralama-depois.webp"
+                   alt="Depois do reparo — paralama recuperado com martelinho de ouro"
+                   loading="lazy"
+                   width="600" height="450">
+              <span class="result-card__tag result-card__tag--depois">Depois</span>
+            </div>
+          </div>
+        </div>
+        <!-- Card 2: Paralama (ângulo 2) -->
+        <div class="result-card reveal">
+          <div class="result-card__label">Paralama — Visão lateral</div>
+          <div class="result-card__images">
+            <div class="result-card__side">
+              <img src="assets/img/martelinho-de-ouro-paralama-antes-2.webp"
+                   alt="Antes do reparo — detalhe do amassado no paralama"
+                   loading="lazy"
+                   width="600" height="450">
+              <span class="result-card__tag result-card__tag--antes">Antes</span>
+            </div>
+            <div class="result-card__divider" aria-hidden="true"></div>
+            <div class="result-card__side">
+              <img src="assets/img/martelinho-de-ouro-paralama-depois-2.webp"
+                   alt="Depois do reparo — paralama restaurado preservando a pintura"
+                   loading="lazy"
+                   width="600" height="450">
+              <span class="result-card__tag result-card__tag--depois">Depois</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== POR QUE MARTELINHO ==================== -->
+  <section class="why section" id="vantagens">
+    <div class="container">
+      <div class="text-center reveal">
+        <span class="section-label">Vantagens</span>
+        <h2 class="section-title">Seu carro pode não precisar de funilaria e pintura.</h2>
+        <p class="section-subtitle mx-auto">O martelinho de ouro utiliza técnicas específicas para recuperar pequenos e médios amassados preservando a pintura original, quando as condições do dano permitem.</p>
+      </div>
+      <div class="why__grid">
+        <div class="why-card reveal">
+          <div class="why-card__icon">🔨</div>
+          <h3 class="why-card__title">Preserva a Pintura</h3>
+          <p class="why-card__text">Preservamos a pintura original sempre que tecnicamente possível.</p>
+        </div>
+        <div class="why-card reveal">
+          <div class="why-card__icon">💰</div>
+          <h3 class="why-card__title">Preço Justo</h3>
+          <p class="why-card__text">Uma solução eficiente sem pagar por serviços desnecessários.</p>
+        </div>
+        <div class="why-card reveal">
+          <div class="why-card__icon">⚡</div>
+          <h3 class="why-card__title">Mais Agilidade</h3>
+          <p class="why-card__text">Dependendo do dano, o reparo pode ser muito mais rápido que uma reparação tradicional.</p>
+        </div>
+        <div class="why-card reveal">
+          <div class="why-card__icon">📍</div>
+          <h3 class="why-card__title">Atendimento Móvel</h3>
+          <p class="why-card__text">Nós vamos até você.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== DIFERENCIAL ==================== -->
+  <section class="diferencial section" id="diferencial">
+    <div class="container diferencial__content">
+      <div class="reveal">
+        <span class="section-label">Diferencial Oroboros</span>
+        <h2 class="section-title">Você não precisa parar seu dia para cuidar do carro.</h2>
+        <p class="diferencial__highlight">A Oroboros vai até você.</p>
+        <p class="diferencial__text">Casa, trabalho ou outro local conveniente dentro da nossa área de atendimento.</p>
+      </div>
+      <div class="steps-flow reveal">
+        <div class="step-item">
+          <div class="step-item__icon">📸</div>
+          <p class="step-item__text"><strong>Você manda as fotos</strong>Envie imagens do amassado pelo WhatsApp.</p>
+        </div>
+        <div class="step-item">
+          <div class="step-item__icon">🔎</div>
+          <p class="step-item__text"><strong>Nós avaliamos</strong>Analisamos o dano e explicamos as possibilidades.</p>
+        </div>
+        <div class="step-item">
+          <div class="step-item__icon">📅</div>
+          <p class="step-item__text"><strong>Combinamos o serviço</strong>Agendamos o melhor horário e local para você.</p>
+        </div>
+        <div class="step-item">
+          <div class="step-item__icon">🚗</div>
+          <p class="step-item__text"><strong>Nós vamos até você</strong>Realizamos o reparo onde for mais conveniente.</p>
+        </div>
+      </div>
+      <div class="text-center reveal">
+        <a href="https://wa.me/5511993955168?text=Ol%C3%A1!%20Vi%20o%20site%20da%20Oroboros%20e%20gostaria%20de%20enviar%20fotos%20do%20meu%20carro%20para%20uma%20avalia%C3%A7%C3%A3o%20sem%20compromisso."
+           class="cta-btn cta-btn--primary"
+           target="_blank"
+           rel="noopener noreferrer"
+           aria-label="Enviar fotos pelo WhatsApp">
+          <svg class="cta-whatsapp-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          ENVIAR FOTOS PELO WHATSAPP
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== COMO FUNCIONA ==================== -->
+  <section class="how section" id="como-funciona">
+    <div class="container">
+      <div class="text-center reveal">
+        <span class="section-label">Simples e rápido</span>
+        <h2 class="section-title">Como funciona o orçamento por foto</h2>
+      </div>
+      <div class="how__steps">
+        <div class="how-step reveal">
+          <span class="how-step__number">01</span>
+          <div class="how-step__icon">📸</div>
+          <h3 class="how-step__title">Envie as Fotos</h3>
+          <p class="how-step__text">Tire algumas fotos do amassado e envie pelo WhatsApp.</p>
+        </div>
+        <div class="how-step reveal">
+          <span class="how-step__number">02</span>
+          <div class="how-step__icon">💬</div>
+          <h3 class="how-step__title">Receba a Avaliação</h3>
+          <p class="how-step__text">Analisamos o dano e explicamos as possibilidades para o seu veículo.</p>
+        </div>
+        <div class="how-step reveal">
+          <span class="how-step__number">03</span>
+          <div class="how-step__icon">🚗</div>
+          <h3 class="how-step__title">Nós Vamos Até Você</h3>
+          <p class="how-step__text">Agendamos o serviço e vamos até o local combinado.</p>
+        </div>
+      </div>
+      <div class="text-center reveal" style="margin-top: var(--space-2xl);">
+        <a href="https://wa.me/5511993955168?text=Ol%C3%A1!%20Vi%20o%20site%20da%20Oroboros%20e%20gostaria%20de%20enviar%20fotos%20do%20meu%20carro%20para%20uma%20avalia%C3%A7%C3%A3o%20sem%20compromisso."
+           class="cta-btn cta-btn--primary"
+           target="_blank"
+           rel="noopener noreferrer"
+           aria-label="Quero fazer meu orçamento pelo WhatsApp">
+          <svg class="cta-whatsapp-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          QUERO FAZER MEU ORÇAMENTO
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== SERVIÇOS ==================== -->
+  <section class="services section" id="servicos">
+    <div class="container">
+      <div class="text-center reveal">
+        <span class="section-label">Especialidades</span>
+        <h2 class="section-title">Serviços Especializados de Reparo Automotivo</h2>
+      </div>
+      <div class="services__grid">
+        <div class="service-card reveal">
+          <div class="service-card__icon">🔨</div>
+          <h3 class="service-card__title">Martelinho de Ouro</h3>
+          <p class="service-card__text">Reparo de pequenos e médios amassados.</p>
+        </div>
+        <div class="service-card reveal">
+          <div class="service-card__icon">🌧️</div>
+          <h3 class="service-card__title">Reparo de Granizo</h3>
+          <p class="service-card__text">Recuperação de pontos de amassamento preservando a pintura quando tecnicamente possível.</p>
+        </div>
+        <div class="service-card reveal">
+          <div class="service-card__icon">🚗</div>
+          <h3 class="service-card__title">Reparos em Peças da Carroceria</h3>
+          <p class="service-card__text">Portas, paralamas, capô, teto e outras peças, conforme as características do dano.</p>
+        </div>
+      </div>
+      <div class="text-center reveal" style="margin-top: var(--space-2xl);">
+        <a href="https://wa.me/5511993955168?text=Ol%C3%A1!%20Vi%20o%20site%20da%20Oroboros%20e%20gostaria%20de%20enviar%20fotos%20do%20meu%20carro%20para%20uma%20avalia%C3%A7%C3%A3o%20sem%20compromisso."
+           class="cta-btn cta-btn--primary"
+           target="_blank"
+           rel="noopener noreferrer"
+           aria-label="Mande uma foto do seu amassado pelo WhatsApp">
+          <svg class="cta-whatsapp-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          MANDE UMA FOTO DO SEU AMASSADO
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== CLIENTES ==================== -->
+  <section class="clients section" id="clientes">
+    <div class="container">
+      <div class="text-center reveal">
+        <span class="section-label">Quem confia</span>
+        <h2 class="section-title">Confiança que vai além do cliente particular</h2>
+        <p class="section-subtitle mx-auto">Atendemos empresas, frotas e clientes particulares com o mesmo cuidado em cada reparo.</p>
+      </div>
+      <div class="clients__logos reveal">
+        <img src="assets/img/cliente-quest-multimarcas.webp"
+             alt="Logo Quest Multimarcas"
+             class="clients__logo"
+             loading="lazy"
+             width="120" height="50">
+        <img src="assets/img/cliente-garage-poa.webp"
+             alt="Logo Garage POA"
+             class="clients__logo"
+             loading="lazy"
+             width="120" height="50">
+        <img src="assets/img/cliente-byd.webp"
+             alt="Logo BYD"
+             class="clients__logo"
+             loading="lazy"
+             width="120" height="50">
+        <img src="assets/img/cliente-toyota.webp"
+             alt="Logo Toyota"
+             class="clients__logo"
+             loading="lazy"
+             width="120" height="50">
+        <img src="assets/img/cliente-xk-motors.webp"
+             alt="Logo XK Motors Multimarcas"
+             class="clients__logo"
+             loading="lazy"
+             width="120" height="50">
+        <img src="assets/img/cliente-laud-car.webp"
+             alt="Logo Laud Car Multimarcas"
+             class="clients__logo"
+             loading="lazy"
+             width="120" height="50">
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== SOBRE ==================== -->
+  <section class="about section" id="sobre">
+    <div class="container">
+      <div class="reveal">
+        <span class="section-label">Sobre</span>
+        <h2 class="section-title">Cuidamos do seu carro como se fosse nosso.</h2>
+      </div>
+      <div class="about__content reveal">
+        <p class="about__text">A Oroboros Martelinho de Ouro trabalha para entregar um reparo de qualidade, com transparência no orçamento e o mínimo de transtorno para o cliente.</p>
+        <p class="about__text">Nosso objetivo é simples: resolver o problema do seu carro sem complicar a sua rotina.</p>
+        <p class="about__text">Por isso, além da qualidade do reparo, levamos o serviço até você.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== FAQ ==================== -->
+  <section class="faq section" id="faq">
+    <div class="container">
+      <div class="text-center reveal">
+        <span class="section-label">Dúvidas</span>
+        <h2 class="section-title">Perguntas frequentes</h2>
+      </div>
+      <div class="faq__list reveal">
+        <div class="faq-item">
+          <button class="faq-item__question" aria-expanded="false">
+            O martelinho de ouro danifica a pintura?
+          </button>
+          <div class="faq-item__answer" role="region">
+            <div class="faq-item__answer-inner">
+              Quando o reparo é adequado para a técnica, o objetivo é recuperar o amassado preservando a pintura original.
+            </div>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-item__question" aria-expanded="false">
+            Vocês atendem em domicílio?
+          </button>
+          <div class="faq-item__answer" role="region">
+            <div class="faq-item__answer-inner">
+              Sim. A Oroboros vai até o local combinado dentro da nossa área de atendimento.
+            </div>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-item__question" aria-expanded="false">
+            Como faço para saber quanto vai custar?
+          </button>
+          <div class="faq-item__answer" role="region">
+            <div class="faq-item__answer-inner">
+              Envie fotos do amassado pelo WhatsApp. A partir das imagens conseguimos fazer uma avaliação inicial.
+            </div>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-item__question" aria-expanded="false">
+            Qualquer amassado pode ser reparado?
+          </button>
+          <div class="faq-item__answer" role="region">
+            <div class="faq-item__answer-inner">
+              Não necessariamente. O resultado depende de fatores como profundidade, localização, acesso à parte interna da peça e condição da pintura. A avaliação determina se o martelinho é indicado.
+            </div>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-item__question" aria-expanded="false">
+            Preciso levar o carro até vocês?
+          </button>
+          <div class="faq-item__answer" role="region">
+            <div class="faq-item__answer-inner">
+              Não. Nosso diferencial é justamente o atendimento onde você estiver, dentro da nossa área de cobertura.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== ÁREA DE ATENDIMENTO ==================== -->
+  <section class="coverage section" id="atendimento">
+    <div class="container">
+      <div class="text-center reveal">
+        <span class="section-label">Cobertura</span>
+        <h2 class="section-title">Atendimento onde você estiver</h2>
+        <p class="section-subtitle mx-auto">A Oroboros realiza atendimento móvel dentro da sua área de cobertura.</p>
+      </div>
+      <div class="coverage__cities reveal">
+        <!-- Cidades configuráveis — adicionar/remover conforme necessário -->
+        <span class="coverage__city">Santo André</span>
+        <span class="coverage__city">São Bernardo do Campo</span>
+        <span class="coverage__city">São Caetano do Sul</span>
+        <span class="coverage__city">São Paulo</span>
+        <!-- Adicionar mais regiões conforme área de atendimento real -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== CTA FINAL ==================== -->
+  <section class="cta-final section" id="contato">
+    <div class="container">
+      <div class="cta-final__content reveal">
+        <h2 class="cta-final__title">Seu carro está amassado?</h2>
+        <p class="cta-final__subtitle">Resolva isso sem perder tempo levando o carro até uma oficina.</p>
+        <p class="cta-final__instruction">📸 Mande uma foto do amassado. Nós avaliamos e informamos as possibilidades para o reparo.</p>
+        <a href="https://wa.me/5511993955168?text=Ol%C3%A1!%20Vi%20o%20site%20da%20Oroboros%20e%20gostaria%20de%20enviar%20fotos%20do%20meu%20carro%20para%20uma%20avalia%C3%A7%C3%A3o%20sem%20compromisso."
+           class="cta-btn cta-btn--primary"
+           target="_blank"
+           rel="noopener noreferrer"
+           aria-label="Quero avaliar meu amassado no WhatsApp">
+          <svg class="cta-whatsapp-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          QUERO AVALIAR MEU AMASSADO NO WHATSAPP
+        </a>
+        <p class="cta-final__disclaimer">Sem compromisso.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="footer" role="contentinfo">
+    <div class="container footer__inner">
+      <div class="footer__logo">
+        <img src="assets/img/logo-oroboros-emblem.webp"
+             alt="Emblema Oroboros"
+             class="footer__logo-img"
+             width="48"
+             height="40"
+             loading="lazy">
+        <span class="footer__logo-text">OROBOROS MARTELINHO DE OURO</span>
+      </div>
+      <div class="footer__info">
+        <a href="tel:+5511993955168" aria-label="Ligar para Oroboros">(11) 99395-5168</a><br>
+        <a href="https://martelinhodigital.online">martelinhodigital.online</a>
+      </div>
+      <p class="footer__legal">© 2026 Oroboros Martelinho de Ouro. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <!-- ==================== WHATSAPP FLOATING BUTTON ==================== -->
+  <a href="https://wa.me/5511993955168?text=Ol%C3%A1!%20Vi%20o%20site%20da%20Oroboros%20e%20gostaria%20de%20enviar%20fotos%20do%20meu%20carro%20para%20uma%20avalia%C3%A7%C3%A3o%20sem%20compromisso."
+     class="whatsapp-float"
+     target="_blank"
+     rel="noopener noreferrer"
+     aria-label="Falar pelo WhatsApp">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+  </a>
+
+  <!-- ==================== JAVASCRIPT ==================== -->
+  <script>
+    // FAQ Accordion
+    document.querySelectorAll('.faq-item__question').forEach(function(btn) {
+      btn.addEventListener('click', function() {
+        var item = this.closest('.faq-item');
+        var isActive = item.classList.contains('active');
+        var expanded = this.getAttribute('aria-expanded') === 'true';
+
+        // Close all
+        document.querySelectorAll('.faq-item').forEach(function(el) {
+          el.classList.remove('active');
+          el.querySelector('.faq-item__question').setAttribute('aria-expanded', 'false');
+        });
+
+        // Toggle current
+        if (!isActive) {
+          item.classList.add('active');
+          this.setAttribute('aria-expanded', 'true');
+        }
+      });
+    });
+
+    // Scroll Reveal Animation
+    (function() {
+      var reveals = document.querySelectorAll('.reveal');
+      if (!reveals.length) return;
+
+      if ('IntersectionObserver' in window) {
+        var observer = new IntersectionObserver(function(entries) {
+          entries.forEach(function(entry) {
+            if (entry.isIntersecting) {
+              entry.target.classList.add('visible');
+              observer.unobserve(entry.target);
+            }
+          });
+        }, {
+          threshold: 0.1,
+          rootMargin: '0px 0px -40px 0px'
+        });
+
+        reveals.forEach(function(el) {
+          observer.observe(el);
+        });
+      } else {
+        // Fallback: show all
+        reveals.forEach(function(el) {
+          el.classList.add('visible');
+        });
+      }
+    })();
+  </script>
+</body>
+</html>
